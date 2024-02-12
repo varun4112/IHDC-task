@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-row {
+    height: 60px;
+    background-color: #ebebeb;
+}
+
+.logo-col {
+    text-align: center;
+}
+
+.company-name {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 16%;
+    text-decoration: none;
+    color: black
+}
+
+@media screen and (max-width: 480px) {
+    .company-name {
+        font-size: 20px;
+    }
+
+}
